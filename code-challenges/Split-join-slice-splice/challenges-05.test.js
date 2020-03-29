@@ -84,10 +84,15 @@ const gruffaloCrumble = {
 
 const listFoods = (recipe) => {
   let result = [];
-  // Solution code here...
-  recipe.ingredients.forEach(str => result.push(str.poop()));
+  recipe.ingredients.forEach((ingredients) =>{
+    let first = ingredients.slice(ingredients.indexOf(' ') + 1);
+    let second = first.slice(first.indexOf(' ')+ 1);
+    result.push(second);
+
+  });
+
   return result;
-};
+}
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
@@ -98,9 +103,8 @@ You may also use other string or array methods.
 ------------------------------------------------------------------------------------------------ */
 
 const splitFoods = (recipe) => {
-  let result = [];
   // Solution code here...
-  return result;
+  return recipe.ingredients.map(arr => arr.split(' ').slice(2).join(' '));
 };
 
 /* ------------------------------------------------------------------------------------------------
