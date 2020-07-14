@@ -1,9 +1,0 @@
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\LinkedListLibrary\LinkedListLibrary\LinkedListLibrary\obj\Debug\netcoreapp3.1\LinkedListLibrary.csprojAssemblyReference.cache
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\LinkedListLibrary\LinkedListLibrary\LinkedListLibrary\obj\Debug\netcoreapp3.1\LinkedListLibrary.AssemblyInfoInputs.cache
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\LinkedListLibrary\LinkedListLibrary\LinkedListLibrary\obj\Debug\netcoreapp3.1\LinkedListLibrary.AssemblyInfo.cs
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\LinkedListLibrary\LinkedListLibrary\LinkedListLibrary\obj\Debug\netcoreapp3.1\LinkedListLibrary.csproj.CoreCompileInputs.cache
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\LinkedListLibrary\LinkedListLibrary\LinkedListLibrary\bin\Debug\netcoreapp3.1\LinkedListLibrary.deps.json
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\LinkedListLibrary\LinkedListLibrary\LinkedListLibrary\bin\Debug\netcoreapp3.1\LinkedListLibrary.dll
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\LinkedListLibrary\LinkedListLibrary\LinkedListLibrary\bin\Debug\netcoreapp3.1\LinkedListLibrary.pdb
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\LinkedListLibrary\LinkedListLibrary\LinkedListLibrary\obj\Debug\netcoreapp3.1\LinkedListLibrary.dll
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\LinkedListLibrary\LinkedListLibrary\LinkedListLibrary\obj\Debug\netcoreapp3.1\LinkedListLibrary.pdb
