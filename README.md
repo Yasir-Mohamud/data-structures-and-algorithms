@@ -6,4 +6,4 @@
 
 
 ### Data Structures
-- [Stacks And Queues](data-structures/StacksAndQueuesLibrary/StacksAndQueuesLibrary/README.md)
+1.[Stacks And Queues](DataStructures\StacksAndQueues\README.md)
