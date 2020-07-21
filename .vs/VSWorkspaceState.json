@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\code-challenges"
+    "\\code-challenges",
+    "\\code-challenges\\QueuesWithStacks",
+    "\\code-challenges\\StacksAndQueues\\stack-and-queue",
+    "\\code-challenges\\StacksAndQueues\\stack-and-queue\\stack-and-queue"
   ],
-  "SelectedNode": "\\code-challenges\\StacksAndQueues",
+  "SelectedNode": "\\code-challenges\\QueuesWithStacks",
   "PreviewInSolutionExplorer": false
 }

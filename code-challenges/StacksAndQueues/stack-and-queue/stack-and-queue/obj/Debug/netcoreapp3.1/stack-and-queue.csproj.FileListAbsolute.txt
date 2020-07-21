@@ -1,9 +1,0 @@
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\StacksAndQueues\stack-and-queue\stack-and-queue\bin\Debug\netcoreapp3.1\stack-and-queue.deps.json
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\StacksAndQueues\stack-and-queue\stack-and-queue\bin\Debug\netcoreapp3.1\stack-and-queue.dll
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\StacksAndQueues\stack-and-queue\stack-and-queue\bin\Debug\netcoreapp3.1\stack-and-queue.pdb
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\StacksAndQueues\stack-and-queue\stack-and-queue\obj\Debug\netcoreapp3.1\stack-and-queue.csprojAssemblyReference.cache
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\StacksAndQueues\stack-and-queue\stack-and-queue\obj\Debug\netcoreapp3.1\stack-and-queue.AssemblyInfoInputs.cache
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\StacksAndQueues\stack-and-queue\stack-and-queue\obj\Debug\netcoreapp3.1\stack-and-queue.AssemblyInfo.cs
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\StacksAndQueues\stack-and-queue\stack-and-queue\obj\Debug\netcoreapp3.1\stack-and-queue.csproj.CoreCompileInputs.cache
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\StacksAndQueues\stack-and-queue\stack-and-queue\obj\Debug\netcoreapp3.1\stack-and-queue.dll
-C:\Users\yasmo\source\repos\data-structures-and-algorithms\code-challenges\StacksAndQueues\stack-and-queue\stack-and-queue\obj\Debug\netcoreapp3.1\stack-and-queue.pdb
