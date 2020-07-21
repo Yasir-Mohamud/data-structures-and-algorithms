@@ -27,7 +27,7 @@ namespace stack_and_queue
         {
             if (IsEmpty())
             {
-                throw new Exception("Stack is Empty");
+                throw new Exception("The stack is empty");
             }
             return Top.Value;
         }
