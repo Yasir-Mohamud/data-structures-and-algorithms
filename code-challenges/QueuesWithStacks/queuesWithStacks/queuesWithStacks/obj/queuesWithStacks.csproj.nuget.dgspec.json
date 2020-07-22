@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yasmo\\source\\repos\\data-structures-and-algorithms\\code-challenges\\QueuesWithStacks\\queuesWithStacks\\queuesWithStacks\\queuesWithStacks.csproj": {}
+    "C:\\Users\\yasmo\\Source\\Repos\\data-structures-and-algorithms\\code-challenges\\QueuesWithStacks\\queuesWithStacks\\queuesWithStacks\\queuesWithStacks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yasmo\\source\\repos\\data-structures-and-algorithms\\code-challenges\\QueuesWithStacks\\queuesWithStacks\\queuesWithStacks\\queuesWithStacks.csproj": {
+    "C:\\Users\\yasmo\\Source\\Repos\\data-structures-and-algorithms\\code-challenges\\QueuesWithStacks\\queuesWithStacks\\queuesWithStacks\\queuesWithStacks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yasmo\\source\\repos\\data-structures-and-algorithms\\code-challenges\\QueuesWithStacks\\queuesWithStacks\\queuesWithStacks\\queuesWithStacks.csproj",
+        "projectUniqueName": "C:\\Users\\yasmo\\Source\\Repos\\data-structures-and-algorithms\\code-challenges\\QueuesWithStacks\\queuesWithStacks\\queuesWithStacks\\queuesWithStacks.csproj",
         "projectName": "queuesWithStacks",
-        "projectPath": "C:\\Users\\yasmo\\source\\repos\\data-structures-and-algorithms\\code-challenges\\QueuesWithStacks\\queuesWithStacks\\queuesWithStacks\\queuesWithStacks.csproj",
+        "projectPath": "C:\\Users\\yasmo\\Source\\Repos\\data-structures-and-algorithms\\code-challenges\\QueuesWithStacks\\queuesWithStacks\\queuesWithStacks\\queuesWithStacks.csproj",
         "packagesPath": "C:\\Users\\yasmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yasmo\\source\\repos\\data-structures-and-algorithms\\code-challenges\\QueuesWithStacks\\queuesWithStacks\\queuesWithStacks\\obj\\",
+        "outputPath": "C:\\Users\\yasmo\\Source\\Repos\\data-structures-and-algorithms\\code-challenges\\QueuesWithStacks\\queuesWithStacks\\queuesWithStacks\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yasmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
