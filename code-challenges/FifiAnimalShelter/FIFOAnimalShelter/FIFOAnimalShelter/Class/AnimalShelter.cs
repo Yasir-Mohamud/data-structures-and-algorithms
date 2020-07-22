@@ -1,21 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using stack_and_queue;
 
 namespace FIFOAnimalShelter.Class
 {
     class AnimalShelter
     {
-        public string Dog { get; set; }
-        public string Cat { get; set; }
-
-        public AnimalShelter(string animal)
+        public Stack<T> Shelter = new Stack<T>();
+        public Stack<T> Temp = new Stack<T>()
+        public AnimalShelter()
         {
-            Dog = dog;
-            Cat = cat;
+
+        }
+        AnimalShelter Dog = new AnimalShelter();
+        AnimalShelter Cat = new AnimalShelter();
+       
+     public void Enqueue(T animal)
+        {
+            if (IsEmpty())
+            {
+                Shelter.Next = null;
+            }
         }
 
-        AnimalShelter Animal = new AnimalShelter();
+        
         
     }
 }
