@@ -2,14 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\code-challenges",
+    "\\code-challenges\\FifiAnimalShelter",
     "\\code-challenges\\QueuesWithStacks",
     "\\code-challenges\\QueuesWithStacks\\queuesWithStacks",
-    "\\DataStructures",
-    "\\DataStructures\\StacksAndQueues",
-    "\\DataStructures\\StacksAndQueues\\stack-and-queue",
-    "\\DataStructures\\StacksAndQueues\\stack-and-queue\\stack-and-queue",
-    "\\DataStructures\\StacksAndQueues\\stack-and-queue\\UnitTests"
+    "\\DataStructures"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\code-challenges\\FifiAnimalShelter",
   "PreviewInSolutionExplorer": false
 }
