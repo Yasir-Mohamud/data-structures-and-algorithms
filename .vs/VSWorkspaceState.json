@@ -3,10 +3,11 @@
     "",
     "\\code-challenges",
     "\\code-challenges\\FifiAnimalShelter",
+    "\\code-challenges\\FifiAnimalShelter\\FIFOAnimalShelter",
     "\\code-challenges\\QueuesWithStacks",
-    "\\code-challenges\\QueuesWithStacks\\queuesWithStacks",
+    "\\code-challenges\\QueuesWithStacks\\queuesWithStacks\\queuesWithStacks",
     "\\DataStructures"
   ],
-  "SelectedNode": "\\code-challenges\\FifiAnimalShelter",
+  "SelectedNode": "\\code-challenges\\QueuesWithStacks\\queuesWithStacks",
   "PreviewInSolutionExplorer": false
 }
