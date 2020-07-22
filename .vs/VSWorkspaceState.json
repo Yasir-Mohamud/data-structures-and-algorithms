@@ -2,14 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\code-challenges",
-    "\\code-challenges\\QueuesWithStacks",
-    "\\code-challenges\\QueuesWithStacks\\queuesWithStacks",
+    "\\code-challenges\\FifiAnimalShelter",
+    "\\code-challenges\\FifiAnimalShelter\\FIFOAnimalShelter",
+    "\\code-challenges\\FifiAnimalShelter\\FIFOAnimalShelter\\FIFOAnimalShelter",
+    "\\code-challenges\\FifiAnimalShelter\\FIFOAnimalShelter\\FIFOAnimalShelter\\Class",
     "\\DataStructures",
     "\\DataStructures\\StacksAndQueues",
     "\\DataStructures\\StacksAndQueues\\stack-and-queue",
-    "\\DataStructures\\StacksAndQueues\\stack-and-queue\\stack-and-queue",
     "\\DataStructures\\StacksAndQueues\\stack-and-queue\\UnitTests"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\code-challenges\\FifiAnimalShelter\\FIFOAnimalShelter\\FIFOAnimalShelter.sln",
   "PreviewInSolutionExplorer": false
 }
