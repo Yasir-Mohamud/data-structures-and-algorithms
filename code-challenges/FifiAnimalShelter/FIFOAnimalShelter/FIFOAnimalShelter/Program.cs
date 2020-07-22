@@ -1,4 +1,5 @@
 ﻿using System;
+using FIFOAnimalShelter.Class;
 using stack_and_queue;
 
 namespace FIFOAnimalShelter
@@ -8,9 +9,10 @@ namespace FIFOAnimalShelter
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Stack<int> stack = new Stack<int>();
+          
         }
 
-        public 
+
+      
     }
 }
