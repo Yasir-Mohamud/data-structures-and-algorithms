@@ -7,23 +7,43 @@ namespace FIFOAnimalShelter.Class
 {
     class AnimalShelter
     {
-        public Stack<T> Shelter = new Stack<T>();
-        public Stack<T> Temp = new Stack<T>()
-        public AnimalShelter()
-        {
+        public Queue<Animal> Shelter = new Queue<Animal>();
 
-        }
-        AnimalShelter Dog = new AnimalShelter();
-        AnimalShelter Cat = new AnimalShelter();
-       
-     public void Enqueue(T animal)
+        public object Animal { get; internal set; }
+
+
+        /// <summary>
+        /// Adds an animal to the shelter
+        /// </summary>
+        /// <param name="animal"></param>
+        public void Enqueue(Animal animal)
         {
-            if (IsEmpty())
+            Shelter.Enqueue(animal);
+        }
+
+
+        /// <summary>
+        /// Return a cat or a dog
+        /// </summary>
+        /// <param name="pref">dog or cat string</param>
+        public Animal Dequeue(string pref)
+        {
+            Animal animalPref = new Animal();
+            if (pref == "dog")
             {
-                Shelter.Next = null;
+                animalPref = new Dog();
             }
+            else if (pref == "cat")
+            {
+                animalPref = new Cat();
+            }
+            else
+            {
+                animalPref = null;
+             
+            }
+            return animalPref;
         }
-
         
         
     }
