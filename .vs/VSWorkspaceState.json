@@ -3,9 +3,13 @@
     "",
     "\\code-challenges",
     "\\code-challenges\\QueuesWithStacks",
-    "\\code-challenges\\StacksAndQueues\\stack-and-queue",
-    "\\code-challenges\\StacksAndQueues\\stack-and-queue\\stack-and-queue"
+    "\\code-challenges\\QueuesWithStacks\\queuesWithStacks",
+    "\\DataStructures",
+    "\\DataStructures\\StacksAndQueues",
+    "\\DataStructures\\StacksAndQueues\\stack-and-queue",
+    "\\DataStructures\\StacksAndQueues\\stack-and-queue\\stack-and-queue",
+    "\\DataStructures\\StacksAndQueues\\stack-and-queue\\UnitTests"
   ],
-  "SelectedNode": "\\code-challenges\\QueuesWithStacks",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
