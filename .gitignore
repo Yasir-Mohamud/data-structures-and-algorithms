@@ -225,8 +225,9 @@ $RECYCLE.BIN/
 *.lnk
 
 
+# End of https://www.gitignore.io/api/node,macos,linux,windows,webstorm,visualstudiocode
 
-
+# Created by https://www.gitignore.io/api/linux,macos,windows,visualstudio,visualstudiocode
 
 *.sqlite
 

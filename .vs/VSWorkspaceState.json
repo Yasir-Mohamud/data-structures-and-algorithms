@@ -3,10 +3,11 @@
     "",
     "\\code-challenges",
     "\\code-challenges\\FifiAnimalShelter",
-    "\\code-challenges\\QueuesWithStacks",
+    "\\code-challenges\\FifiAnimalShelter\\FIFOAnimalShelter\\FIFOAnimalShelter\\Class",
     "\\code-challenges\\QueuesWithStacks\\queuesWithStacks",
-    "\\DataStructures"
+    "\\code-challenges\\QueuesWithStacks\\queuesWithStacks\\queuesWithStacks",
+    "\\code-challenges\\QueuesWithStacks\\queuesWithStacks\\UnitTests"
   ],
-  "SelectedNode": "\\code-challenges\\FifiAnimalShelter",
+  "SelectedNode": "\\code-challenges\\FifiAnimalShelter\\README.md",
   "PreviewInSolutionExplorer": false
 }
