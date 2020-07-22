@@ -3,14 +3,10 @@
     "",
     "\\code-challenges",
     "\\code-challenges\\FifiAnimalShelter",
-    "\\code-challenges\\FifiAnimalShelter\\FIFOAnimalShelter",
-    "\\code-challenges\\FifiAnimalShelter\\FIFOAnimalShelter\\FIFOAnimalShelter",
-    "\\code-challenges\\FifiAnimalShelter\\FIFOAnimalShelter\\FIFOAnimalShelter\\Class",
-    "\\DataStructures",
-    "\\DataStructures\\StacksAndQueues",
-    "\\DataStructures\\StacksAndQueues\\stack-and-queue",
-    "\\DataStructures\\StacksAndQueues\\stack-and-queue\\UnitTests"
+    "\\code-challenges\\QueuesWithStacks",
+    "\\code-challenges\\QueuesWithStacks\\queuesWithStacks",
+    "\\DataStructures"
   ],
-  "SelectedNode": "\\code-challenges\\FifiAnimalShelter\\FIFOAnimalShelter\\FIFOAnimalShelter.sln",
+  "SelectedNode": "\\code-challenges\\FifiAnimalShelter",
   "PreviewInSolutionExplorer": false
 }
