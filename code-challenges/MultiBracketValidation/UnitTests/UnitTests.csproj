@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\stack-and-queue\stack-and-queue.csproj" />
+    <ProjectReference Include="..\MultiBracketValidation\MultiBracketValidation.csproj" />
   </ItemGroup>
 
 </Project>
