@@ -7,3 +7,5 @@
 
 ### Data Structures
 1.[Stacks And Queues](DataStructures\StacksAndQueues\README.md)
+
+2.[Tree](DataStructures\Trees\README.md)
