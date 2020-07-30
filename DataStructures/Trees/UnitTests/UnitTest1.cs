@@ -158,5 +158,43 @@ namespace UnitTests
             Assert.Equal(order, postOrder);
         }
 
+
+        // Test 7
+        [Fact]
+        public void CanAddMultipleNodesToBST()
+        {
+            BinarySearchTrees tree = new BinarySearchTrees();
+            tree.Add(100);
+            tree.Add(200);
+            tree.Add(50);
+            tree.Add(80);
+            tree.Add(30);
+            tree.Add(300);
+            tree.Add(130);
+           
+
+            Assert.Equal(100, tree.Root.Value);
+            Assert.Equal(200, tree.Root.RightChild.Value);
+            Assert.Equal(50, tree.Root.LeftChild.Value);
+            Assert.Equal(80, tree.Root.LeftChild.RightChild.Value);
+            Assert.Equal(30, tree.Root.LeftChild.LeftChild.Value);
+            Assert.Equal(300, tree.Root.RightChild.RightChild.Value);
+            Assert.Equal(130, tree.Root.RightChild.LeftChild.Value);
+
+        }
+
+
+        // Test 8
+        [Fact]
+        public void ShowsIfTreeContainsAValue()
+        {
+            BinarySearchTrees tree = new BinarySearchTrees();
+            tree.Add(100);
+            tree.Add(200);
+            tree.Add(50);
+
+           bool expected =  tree.Contains(50);
+            Assert.True(expected);
+        }
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Trees
 {
-    public class Tree<T>
+    public class Tree<T> 
     {
         public Node<T> Root { get; set; }
         public Tree()
