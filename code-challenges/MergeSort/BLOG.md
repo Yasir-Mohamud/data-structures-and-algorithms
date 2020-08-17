@@ -44,7 +44,7 @@ Sample Array : [8,4,23,42,16,15]
 
 
 # Visuals
-![Image](assets\MergeSort.png)
+![Image](\assets\Visual.png)
 
 - Checks the length of the array.
 - If number of the length is greater than one then the array is split into 2 sides(left and right).
