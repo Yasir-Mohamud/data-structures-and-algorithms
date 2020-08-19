@@ -6,7 +6,7 @@ Write a blog about Merge Sort and how it works
 
 ## Approach & Efficiency
 Space : O(n)
-Time : O(nlogn)
+Time: O(nlogn)
 
 ## Solution
 [Blog](BLOG.md)
