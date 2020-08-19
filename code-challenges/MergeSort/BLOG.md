@@ -1,7 +1,7 @@
 # Merge Sort
 ------------------
 - It is a sorting algorithm Merge that divides an array into sub arrays and when then when sorts those
-- sub arrays and merges it back to become one sorted array.
+ sub arrays and merges it back to become one sorted array.
 - This task is accomplished by using recursion and a while Loop.
 # Pseudo Code
 ---------------
@@ -44,17 +44,13 @@ Sample Array : [8,4,23,42,16,15]
 
 
 # Visuals
-![Image](\assets\Visual.png)
+![Image](assets\Visual.png)
 
 - Checks the length of the array.
 - If number of the length is greater than one then the array is split into 2 sides(left and right).
-- Recursively mergesort the left side until there is only one in each sub array.
+- Recursively Merge sort the left side until there is only one in each sub array.
 - Then it does the same to the other side.
 - Once done it get thrown into the merge method.
 - In the merge the value of the left and right are checked in a while loop and sorted and put back in the array.
 
 
-# Efficiency
----------------
-- Time - O(nlogn)
-- Space - O(n)
