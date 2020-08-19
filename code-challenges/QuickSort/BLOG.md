@@ -1,10 +1,10 @@
-# Quick sort
+# Quick Sort
 ------------------
-
-
+- It is a sorting algorithm that sorts and array by partioning it into right and left sides of the same array
+declaring a pivot and having all elements greater than the pivot on the right , and all less than on the right of the pivot
+- This task is accomplished by using recursion and a for Loop.
 # Pseudo Code
 ---------------
-
 ALGORITHM QuickSort(arr, left, right)
     if left < right
         // Partition the array by setting the position of the pivot value 
@@ -35,46 +35,23 @@ ALGORITHM Swap(arr, i, low)
     temp <-- arr[i]
     arr[i] <-- arr[low]
     arr[low] <-- temp
-ALGORITHM Merge(left, right, arr)
-    DECLARE i <-- 0
-    DECLARE j <-- 0
-    DECLARE k <-- 0
-
-    while i < left.length && j < right.length
-        if left[i] <= right[j]
-            arr[k] <-- left[i]
-            i <-- i + 1
-        else
-            arr[k] <-- right[j]
-            j <-- j + 1
-            
-        k <-- k + 1
-
-    if i = left.length
-       set remaining entries in arr to remaining values in right
-    else
-       set remaining entries in arr to remaining values in left
-
-
 # Trace
 Sample Array : [8,4,23,42,16,15]
 
 
 # Visuals
-![image](assets\one.png)
-![image](assets\two.png)
-![image](assets\three.png)
-![image](assets\four.png)
+![Image](assets\Visual.png)
+- Put in the array , its most left and right index.
+- If the left index is smaller than the right index then the array is partioned 
+and it returns the the array with its  pivot in the middle and the values greater 
+than the pivot will be on the right while the values less than will be on the left.
+- Then quick sort is recursively called on the left side until it is completley sorted
+then the same happens to the right side.
+- Returns the sorted array.
 
--The for loop runs the length of the array.
-- The i keeps track of the sorted and unsorted sides
--Set J to be i - 1 
-- Set temp to be arr[i]
-- In the while it check to see if the temp is less than arr[j] and if j is greater/equal to 0
-- Makes value arr[j+1] equal to the value of arr[j]
-- Set j to j - 1
-- if the conditions in the while loop were false then set arr[j+1] = temp
+
 
 # Efficiency
 ---------------
-  
+- Time - O(nlogn)
+- Space - O(log(n))
