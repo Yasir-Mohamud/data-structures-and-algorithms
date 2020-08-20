@@ -13,10 +13,10 @@ namespace XUnitTestProject1
         {
             // Arrange & Act
             int[] arr = new int[] { 8, 4, 23, 42, 16, 15 };
-            int[] results = Quicksort(arr,0,5);
+            int[] result =  Quicksort(arr,0,arr.Length -1 );
             int[] expected = new int[] { 4, 8, 15, 16, 23, 42 };
             // Assert
-            Assert.Equal(expected, results);
+            Assert.Equal(expected, result);
 
         }
 

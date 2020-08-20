@@ -6,9 +6,8 @@ namespace QuickSort
     {
         static void Main(string[] args)
         {
-            int[] arr = [2, 3, 1, 6, 4];
-            int[]result =  Quicksort[arr, 0, 4];
-            Console.WriteLine(result);
+           
+           
 
         }
 
@@ -17,8 +16,14 @@ namespace QuickSort
             if (left < right)
             {
                 int position = Partition(arr, left, right);
-                Quicksort(arr, left, position - 1);
-                Quicksort(arr, position + 1, right);
+                if (position > 1)
+                {
+                    Quicksort(arr, left, position - 1);
+                }
+                if (position + 1 < right)
+                {
+                    Quicksort(arr, position + 1, right);
+                }
 
             }
 
@@ -29,8 +34,9 @@ namespace QuickSort
         public static int Partition(int[] arr, int left, int right)
         {
             int pivot = arr[right];
+
             int low = left - 1;
-            for (int i = 1; i < arr.Length - 1; i++)
+            for (int i = low; i < arr.Length - 1; i++)
             {
                 if (arr[i] == pivot)
                 {
