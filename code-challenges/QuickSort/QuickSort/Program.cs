@@ -36,9 +36,9 @@ namespace QuickSort
             int pivot = arr[right];
 
             int low = left - 1;
-            for (int i = low; i < arr.Length - 1; i++)
+            for (int i = left; i < right; i++)
             {
-                if (arr[i] == pivot)
+                if (arr[i] <= pivot)
                 {
                     low++;
                     Swap(arr, i, low);
