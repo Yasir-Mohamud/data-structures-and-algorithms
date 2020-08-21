@@ -3,6 +3,7 @@
 
 ### Code Challenges
 - [Array Shift](code-challenges/ArrayShift/README.md)
+- [QuickSort](code-challenges/QuickSort/README.md)
 
 
 ### Data Structures
