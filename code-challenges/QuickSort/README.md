@@ -1,11 +1,12 @@
 # Challenge Summary
-<!-- Short summary or background information -->
-What and How of Insertion Sort
+What and How of Quick Sort
+
 ## Challenge Description
-<!-- Description of the challenge -->
-Write a blog about Insertion Sort and how it works
+Write a blog about Quick Sort and how it works
+
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Space : O(n)
+Time : O(nlogn)
 
 ## Solution
-<!-- Embedded whiteboard image -->
+[Blog](BLOG.md)
