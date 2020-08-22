@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+
 
 namespace HashTableImplamentation
 {
-    public class Class1
+    public class HashTable<T>
     {
 
             public LinkedList<LinkedListNode<Node<T>>>[] Map { get; set; }
-            public HashTbl(int size)
+            public HashTable(int size)
             {
                 Map = new LinkedList<LinkedListNode<Node<T>>>[size];
             }
@@ -16,7 +18,7 @@ namespace HashTableImplamentation
             /// </summary>
             /// <param name="key">the given key to hash</param>
             /// <returns>index of the array placement</returns>
-            private int GetHash(string key)
+            public int GetHash(string key)
             {
                 // Determine our alogirithm for our hash.
                 // a string is a list of char
