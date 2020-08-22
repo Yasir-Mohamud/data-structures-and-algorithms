@@ -37,7 +37,11 @@ namespace HashTableImplamentation
 
             }
 
-            //add
+            /// <summary>
+            /// Takes in a key and value and adds them to a HashTable
+            /// </summary>
+            /// <param name="key"> the key to be added </param>
+            /// <param name="value"> the  value to be added </param>
             public void Add(string key, T value)
             {
                 int index = GetHash(key);
@@ -55,7 +59,11 @@ namespace HashTableImplamentation
 
             }
 
-
+            /// <summary>
+            /// Gets the value of the key that was inputted
+            /// </summary>
+            /// <param name="key"> the key you want to get the value of</param>
+            /// <returns> the value of the key</returns>
             public T Get(string key)
             {
                 int index = GetHash(key);
@@ -83,6 +91,11 @@ namespace HashTableImplamentation
                 return default;
             }
 
+        /// <summary>
+        /// Checks to see if a key is in the HashTable
+        /// </summary>
+        /// <param name="key">the key to be looked for </param>
+        /// <returns> false if not found, true if found</returns>
             public bool Contains(string key)
             {
                 int index = GetHash(key);
