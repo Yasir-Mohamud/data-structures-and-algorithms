@@ -12,22 +12,22 @@ namespace RepeatedWord
         /// <returns>  the repeated word in the string</returns>
          public static string FindRepeatedWord(string sentence)
         {
-            char[] charArray = { ',', '/', '!', ' ', '?' };
+            char[] charArray = new char[] { ',', '/', '!', ' ', '?' };
             string[] stringArr = sentence.Split(charArray);
            
             int v = 0;
             string repeat = "Not Found";
-            HashTable<int> Table = new HashTable<int>(sentence.Length);
+            HashTable<int> Table = new HashTable<int>(sentence.Length * 2);
             foreach (string item in stringArr)
             {
-                if (Table.Contains(item) == true)
+                if (Table.Contains(item.ToUpper()))
                 {
-                    repeat = item;
-                    break;
+                    return repeat = item.ToLower();
+                    
                 }
                 else
                 {
-                    Table.Add(item, v);
+                    Table.Add(item.ToUpper(), v);
                     v++;
                   
                 }
