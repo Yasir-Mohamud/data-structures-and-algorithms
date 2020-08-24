@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Trees">
+      <HintPath>..\..\..\DataStructures\Trees\Trees\bin\Debug\netcoreapp3.1\Trees.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

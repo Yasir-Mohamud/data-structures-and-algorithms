@@ -13,4 +13,14 @@
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TreeIntersection\TreeIntersection.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Trees">
+      <HintPath>..\..\..\DataStructures\Trees\Trees\bin\Debug\netcoreapp3.1\Trees.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
