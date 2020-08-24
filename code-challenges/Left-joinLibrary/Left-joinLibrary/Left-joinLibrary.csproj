@@ -5,4 +5,10 @@
     <RootNamespace>Left_joinLibrary</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="HashTableImplamentation">
+      <HintPath>..\..\..\DataStructures\HashTableImplamentation\HashTableImplamentation\bin\Debug\netcoreapp3.1\HashTableImplamentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
