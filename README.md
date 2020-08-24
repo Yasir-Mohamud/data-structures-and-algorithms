@@ -6,6 +6,8 @@
 2. [QuickSort](code-challenges/QuickSort/README.md)
 3. [Insertion Sort](code-challenges/InsertionSort/README.md)
 4. [Repeated Word](code-challenges/RepeatedWord/README.md)
+5. [Tree Intersection](code-challenges/TreeIntersection/README.md)
+
 
 
 
