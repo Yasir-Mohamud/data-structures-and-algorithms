@@ -81,5 +81,29 @@ namespace Trees
             }
             traversal.Add(root.Value);
         }
+
+        
+        public void PreOrder1(Dictionary<int, int> traversal, Node<int> root)
+        {
+            if (!traversal.ContainsKey(root.Value))
+            {
+                traversal.Add(root.Value, 1);
+
+            }
+            else if (traversal.ContainsKey(root.Value))
+            {
+                traversal[root.Value] += 1;
+            }
+
+            if (root.LeftChild != null)
+            {
+                PreOrder1(traversal, root.LeftChild);
+            }
+
+            if (root.RightChild != null)
+            {
+                PreOrder1(traversal, root.RightChild);
+            }
+        }
     }
 }
