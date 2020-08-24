@@ -9,21 +9,29 @@ namespace XUnitTestProject2
     {
         //TEST 1
         [Fact]
-        public void CanFindRepeatedWord()
+        public void CanTestHappyPath()
         {
-            string words = "I am happy  yes am";
+            string words = "I Am happy  yes am";
             string rep = FindRepeatedWord(words);
             Assert.Equal("am", rep);
         }
 
-    
+        //TEST 1
+        [Fact]
+        public void CanTestExpectedFailure()
+        {
+            string words = "I Am , happy , yes am";
+            string rep = FindRepeatedWord(words);
+            Assert.NotEqual(",", rep);
+        }
+
         //TEST 2
-       [Fact]
+        [Fact]
         public void CanIgnoreSpecialCharacters()
         {
-            string words = "I,am happy!I like that";
+            string words = "I,am happy!i ,like that";
             string rep = FindRepeatedWord(words);
-            Assert.Equal("I", rep);
+            Assert.Equal("i", rep);
         }
 
 
@@ -31,7 +39,7 @@ namespace XUnitTestProject2
         [Fact]
         public void CanReturnNotFound()
         {
-            string words = "I am happy ";
+            string words = "I am happy";
             string rep = FindRepeatedWord(words);
             Assert.Equal("Not Found", rep);
         }
