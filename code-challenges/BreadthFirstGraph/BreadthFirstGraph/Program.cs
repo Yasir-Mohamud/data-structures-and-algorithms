@@ -1,4 +1,8 @@
-﻿using System;
+﻿using GraphImplementation;
+using stack_and_queue;
+using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace BreadthFirstGraph
 {
@@ -9,20 +13,20 @@ namespace BreadthFirstGraph
             Console.WriteLine("Hello World!");
         }
 
-        public static List<Nodes> BreadthFirst(Node<T> vertex)
+        public static List<Node<string>> BreadthFirst(string vertex)
         {
 
-            List<Node> nodes<--new List();
-            Queue breadth<--new Queue();
-            breadth.Enqueue(vertex)
+            List<Node<string>> nodes = new List<Node<string>>();
+            Queues<string> breadth = new Queues<string>();
+            breadth.Enqueue(vertex);
 
 
-        while (!breadth.IsEmty())
+            while (!breadth.IsEmpty())
             {
-                var front = breadth.Dequeue();
-                nodes.Add(front);
+                 Node<string> front = breadth.Dequeue();
+                nodes.Add(front.Value);
 
-                foreach (var child in front.Children)
+                foreach (string child in front)
                 {
                     if (!child.visited)
                     {
@@ -34,3 +38,4 @@ namespace BreadthFirstGraph
             }
         }
     }
+}
