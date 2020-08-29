@@ -4,6 +4,7 @@
 ### Code Challenges
 - [Array Shift](code-challenges/ArrayShift/README.md)
 - [Insertion Sort](code-challenges/InsertionSort/README.md)
+- [Left-Join](code-challenges/Left-joinLibrary/README.md)
 
 
 ### Data Structures
