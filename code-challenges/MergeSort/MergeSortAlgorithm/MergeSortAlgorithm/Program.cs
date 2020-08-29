@@ -17,34 +17,26 @@ namespace MergeSortAlgorithm
         public static int[] Mergesort(int[] arr)
         {
             int n = arr.Length;
-
             if (n > 1)
             {
                 int mid = n / 2;
                 int[] left = new int[mid];
-                int[] right;
-
-                if (arr.Length % 2 == 0)
-                {
-                    right = new int[mid];
-                }
-                else
+                int[] right = new int[mid];
+                if(n % 2 != 0)
                 {
                     right = new int[mid + 1];
                 }
-
                 for (int i = 0; i < mid; i++)
                 {
                     left[i] = arr[i];
                 }
-
-                int x = 0;
-                for (int i = mid; i < arr.Length; i++)
+                int start = 0;
+                for (int i = mid; i < n; i++)
                 {
-                    right[x] = arr[i];
-                    x++;
+                    right[start] = arr[i];
+                    start++;
                 }
-
+               
                 Mergesort(left);
 
                 Mergesort(right);
@@ -66,7 +58,6 @@ namespace MergeSortAlgorithm
             int i = 0;
             int j = 0;
             int k = 0;
-
             while (i < left.Length && j < right.Length)
             {
                 if (left[i] <= right[j])

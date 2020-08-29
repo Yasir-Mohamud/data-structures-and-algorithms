@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="GraphImplementation">
+      <HintPath>..\..\..\DataStructures\GraphImplementation\GraphImplementation\bin\Debug\netcoreapp3.1\GraphImplementation.dll</HintPath>
+    </Reference>
+    <Reference Include="stack-and-queue">
+      <HintPath>..\..\..\DataStructures\StacksAndQueues\stack-and-queue\stack-and-queue\bin\Debug\netcoreapp3.1\stack-and-queue.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

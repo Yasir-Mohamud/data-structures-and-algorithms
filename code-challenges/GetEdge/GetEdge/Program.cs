@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace QuickSort
+namespace GetEdge
 {
     class Program
     {
