@@ -3,6 +3,7 @@ using stack_and_queue;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace BreadthFirstGraph
 {
@@ -13,29 +14,49 @@ namespace BreadthFirstGraph
             Console.WriteLine("Hello World!");
         }
 
-        public static List<Node<string>> BreadthFirst(string vertex)
+        public static List<Node<string>> BreadthFirst( Vertex<string> vertex)
         {
 
-            List<Node<string>> nodes = new List<Node<string>>();
-            Queues<string> breadth = new Queues<string>();
-            breadth.Enqueue(vertex);
 
+            // Mark all the vertices as not 
+            // visited(By default set as false)  
+            bool[] visited = new bool[]();
+            for (int i = 0; i < _V; i++)
+                visited[i] = false;
 
-            while (!breadth.IsEmpty())
+            // Create a queue for BFS  
+            LinkedList<int> queue = new LinkedList<int>();
+
+            // Mark the current node as  
+            // visited and enqueue it  
+            visited[s] = true;
+            queue.AddLast(s);
+
+            while (queue.Any())
             {
-                 Node<string> front = breadth.Dequeue();
-                nodes.Add(front.Value);
 
-                foreach (string child in front)
+                // Dequeue a vertex from queue  
+                // and print it 
+                s = queue.First();
+                Console.Write(s + " ");
+                queue.RemoveFirst();
+
+                // Get all adjacent vertices of the  
+                // dequeued vertex s. If a adjacent 
+                // has not been visited, then mark it  
+                // visited and enqueue it  
+                LinkedList<int> list = _adj[s];
+
+                foreach (var val in list)
                 {
-                    if (!child.visited)
+                    if (!visited[val])
                     {
-                        child.Visited = true;
-                        breadth.Enqueue(child);
+                        visited[val] = true;
+                        queue.AddLast(val);
                     }
                 }
-                return nodes;
             }
         }
+
     }
 }

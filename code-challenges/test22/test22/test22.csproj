@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NPOI" Version="2.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="stack-and-queue">
+      <HintPath>..\..\..\DataStructures\StacksAndQueues\stack-and-queue\stack-and-queue\bin\Debug\netcoreapp3.1\stack-and-queue.dll</HintPath>
+    </Reference>
+    <Reference Include="Trees">
+      <HintPath>..\..\..\DataStructures\Trees\Trees\bin\Debug\netcoreapp3.1\Trees.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
