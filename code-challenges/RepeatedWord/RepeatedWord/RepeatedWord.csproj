@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Left_joinLibrary</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

@@ -12,4 +12,4 @@ Time -> O(n2)
 Space -> O(n)
 ## Solution
 <!-- Embedded whiteboard image -->
-![Image](assets/visual.png)
+![Image](assets\visual.png)
