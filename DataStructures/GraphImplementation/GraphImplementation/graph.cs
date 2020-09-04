@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace GraphImplementation
 {
@@ -113,5 +114,39 @@ namespace GraphImplementation
 
             }
         }
+
+        /// <summary>
+        /// Traverses a graph Breadth first
+        /// </summary>
+        /// <param name="vertex">inputted vertex</param>
+        /// <returns>List of all vetices in the graph </returns>
+        public List<Vertex<T>> BreadthFirst(Vertex<T> vertex)
+        {
+                 List<Vertex<T>> list = new List<Vertex<T>>();
+                 Queue<Vertex<T>> breadth = new Queue<Vertex<T>>();
+
+            breadth.Enqueue(vertex);
+
+            while(breadth.Count() != 0)
+            {
+                Vertex<T> front = breadth.Dequeue();
+            List<Edge<T, W>> edges = AdjacencyList[front];
+            
+                list.Add(front);
+
+                foreach (Edge<T,W> edge in edges)
+                {
+                    if (edge.Vertex != null & !list.Contains(edge.Vertex))
+                    {
+                        breadth.Enqueue(edge.Vertex);
+                    }
+                }
+	
+            }
+
+            return list;
+        }
+
+  
     }
 }

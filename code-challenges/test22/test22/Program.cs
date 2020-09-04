@@ -9,73 +9,47 @@ namespace test22
 {
    public  class Program
     {
+        static LinkedListNode<T> head = null; 
+
         static void Main(string[] args)
         {
-            /*  List<int> list = Man();
-              foreach (var item in list)
-              {
-                 Console.WriteLine(item);
-              }*/
-            Tree<int> tree = new Tree<int>();
-
-            Trees.Node<int> root = new Trees.Node<int>(1);
-            Trees.Node<int> b = new Trees.Node<int>(2);
-            Trees.Node<int> c = new Trees.Node<int>(3);
-            Trees.Node<int> d = new Trees.Node<int>(4);
-            Trees.Node<int> e = new Trees.Node<int>(5);
-            Trees.Node<int> f = new Trees.Node<int>(6);
-            Trees.Node<int> g = new Trees.Node<int>(7);
-
-            tree.Root = root;
-
-            root.LeftChild = b;
-            root.RightChild = c;
-
-            b.LeftChild = d;
-            b.RightChild = e;
-
-            c.LeftChild = f;
-            c.RightChild = g;
-
-            List<int> list = Man(root);
-            foreach (var item in list)
-            {
-                Console.WriteLine(item);
-            }
         }
 
-        // BREADTH FIRST TRAVERSAL
-        public static List<int> Man(Trees.Node<int> root)
-        {
-            List<int> result = new List<int>();
-            Man(result, root);
-            return result;
-        }
-        public static void Man(List<int> list, Trees.Node<int> root)
+        public int RemoveDup ()
         {
 
-           Queue<Trees.Node<int>> breadth = new Queue<Trees.Node<int>>();
-            breadth.Enqueue(root);
-
-            while(breadth.Count > 0)
-            {
-               Trees.Node<int> Front = breadth.Dequeue();
-                list.Add(Front.Value);
-
-                if (Front.LeftChild != null)
-                    breadth.Enqueue(Front.LeftChild);
-                if (Front.RightChild != null)
-                    breadth.Enqueue(Front.RightChild);
-
-
-            }
-
-        
-
+        LinkedList<int> list = new LinkedList<int>();
+            LinkedListNode<int> a = new LinkedListNode<int>(11);
+            LinkedListNode<int> b = new LinkedListNode<int>(1);
+            LinkedListNode<int> c= new LinkedListNode<int>(100);
+            LinkedListNode<int> d = new LinkedListNode<int>(200);
+            LinkedListNode<int> e = new LinkedListNode<int>(191);
+            list.AddFirst(10);
+          
+                list.a
 
         }
-            
 
-   }
+        static void push(int data)
+        {
+            // Allocate dynamic memory for newNode.  
+            LinkedListNode<int> newNode = new LinkedListNode<int>(data);
+
+       
+
+            // newNode->next assign the address of  
+            // head node.  
+            newNode.Next = (head);
+
+            // newNode become the headNode.  
+            (head) = newNode;
+        }
+
+
+
+
+
+
+    }
 }
 

@@ -1,5 +1,6 @@
 using GraphImplementation;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using Xunit;
 
@@ -90,5 +91,81 @@ namespace XUnitTestProject1
             Assert.Equal(2, count);
 
         }
+
+        [Fact]
+        public void CanTestHappyPathForBreadthFirstTraversal()
+        {
+            //Arrange
+            Graph<string, int> graph = new Graph<string, int>();
+
+
+            Vertex<string> vertex1 = graph.AddVertex("Pandora");
+            Vertex<string> vertex2 = graph.AddVertex("Arendelle");
+            Vertex<string> vertex3 = graph.AddVertex("Metroville");
+            Vertex<string> vertex4 = graph.AddVertex("Monstroplolis");
+            Vertex<string> vertex5 = graph.AddVertex("Narnia");
+            Vertex<string> vertex6 = graph.AddVertex("Naboo");
+
+            graph.AddDirectedEdge(vertex1, vertex2, 50);
+            graph.AddDirectedEdge(vertex2, vertex3, 25);
+            graph.AddDirectedEdge(vertex3, vertex4, 25);
+            graph.AddDirectedEdge(vertex4, vertex5, 25);
+            graph.AddDirectedEdge(vertex5, vertex6, 25);
+         
+
+            List<Vertex<string>> Expected = new List<Vertex<string>>();
+            Expected.Add(vertex1);
+            Expected.Add(vertex2);
+            Expected.Add(vertex3);
+            Expected.Add(vertex4);
+            Expected.Add(vertex5);
+            Expected.Add(vertex6);
+    
+            List<Vertex<string>> BreadthFirst = graph.BreadthFirst(vertex1);
+
+       
+            Assert.Equal(Expected, BreadthFirst);
+     
+        }
+
+
+        [Fact]
+        public void CanTestExpectedFailureForBreadthFirstTraversal()
+        {
+            //Arrange
+            Graph<string, int> graph = new Graph<string, int>();
+
+
+            Vertex<string> vertex1 = graph.AddVertex("Pandora");
+            Vertex<string> vertex2 = graph.AddVertex("Arendelle");
+            Vertex<string> vertex3 = graph.AddVertex("Metroville");
+            Vertex<string> vertex4 = graph.AddVertex("Monstroplolis");
+            Vertex<string> vertex5 = graph.AddVertex("Narnia");
+            Vertex<string> vertex6 = graph.AddVertex("Naboo");
+
+            graph.AddDirectedEdge(vertex1, vertex2, 50);
+            graph.AddDirectedEdge(vertex2, vertex3, 25);
+            graph.AddDirectedEdge(vertex3, vertex4, 25);
+            graph.AddDirectedEdge(vertex4, vertex5, 25);
+            graph.AddDirectedEdge(vertex5, vertex6, 25);
+
+
+            List<Vertex<string>> Expected = new List<Vertex<string>>();
+            Expected.Add(vertex1);
+            Expected.Add(vertex5);
+            Expected.Add(vertex2);
+            Expected.Add(vertex3);
+            Expected.Add(vertex6);
+            Expected.Add(vertex4);
+
+            List<Vertex<string>> BreadthFirst = graph.BreadthFirst(vertex1);
+
+
+            Assert.NotEqual(Expected, BreadthFirst);
+
+        }
+
+  
+     
     }
 }
