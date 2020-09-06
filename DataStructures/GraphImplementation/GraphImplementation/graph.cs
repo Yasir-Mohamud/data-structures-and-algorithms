@@ -147,6 +147,32 @@ namespace GraphImplementation
             return list;
         }
 
-  
-    }
+
+        public HashSet<Vertex<T>> DepthFirst(Graph<T,W> graph)
+        {
+
+            Vertex<T> vertex = graph.AdjacencyList.Keys.First();
+            Stack<Vertex<T>> stack = new Stack<Vertex<T>>();
+            HashSet<Vertex<T>> visited = new HashSet<Vertex<T>>();
+
+            stack.Push(vertex);
+            visited.Add(vertex);
+            while (stack.Count > 0)
+            {
+                var v = stack.Pop();
+                if (visited.Contains(vertex))
+                {
+                    continue;
+                }
+                visited.Add(v);
+                foreach (Edge<T, W> edge in AdjacencyList[v])
+                    if (!visited.Contains(edge.Vertex))
+                        stack.Push(edge.Vertex);
+            }
+
+            return visited;
+
+
+        }
+      }
 }
