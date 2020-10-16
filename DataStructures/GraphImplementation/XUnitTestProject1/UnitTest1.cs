@@ -204,7 +204,7 @@ namespace XUnitTestProject1
             Expected.Add(vertex8);
             Expected.Add(vertex6);
 
-            List<Vertex<string>> BreadthFirst = graph.BreadthFirst(vertex1);
+            HashSet<Vertex<string>> BreadthFirst = graph.DepthFirst();
 
 
             Assert.Equal(Expected, BreadthFirst);

@@ -148,10 +148,10 @@ namespace GraphImplementation
         }
 
 
-        public HashSet<Vertex<T>> DepthFirst(Graph<T,W> graph)
+        public   HashSet<Vertex<T>> DepthFirst()
         {
 
-            Vertex<T> vertex = graph.AdjacencyList.Keys.First();
+            Vertex<T> vertex = AdjacencyList.Keys.First();
             Stack<Vertex<T>> stack = new Stack<Vertex<T>>();
             HashSet<Vertex<T>> visited = new HashSet<Vertex<T>>();
 
